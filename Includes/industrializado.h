@@ -15,8 +15,9 @@ tIndustrializado* criaIndustrializado();
 
 /*
 Função que imprime a nota fiscal física de um Industrializado a ser comprado por um cliente. 
-    As informações impressas são: descrição do industrializado, valor do industrializado, a
-    quantidade comprada e o valor final da compra do industrializado. 
+    As informações impressas são: nome do industrializado, id do industrializado, descrição 
+    do industrializado, valor do industrializado, a quantidade comprada e o valor final da 
+    compra do industrializado. 
     Mais informações da impressão na especificação e nos exemplos de testes.
 
 @param void *dado: ponteiro do tipo genérico de um dado a constar na impressão da NF física.
@@ -26,8 +27,9 @@ void imprimeFisicoIndustrializado(void *dado, int qtd);
 
 /*
 Função que imprime a nota fiscal física de um Industrializado a ser comprado por um cliente. 
-    As informações impressas são: e-mail de envio do usuário, descrição do industrializado, 
-    valor do industrializado, a quantidade comprada e o valor final da compra do industrializado. 
+    As informações impressas são: e-mail de envio do usuário, nome do industrializado, id do 
+    industrializado, descrição do industrializado, valor do industrializado, a quantidade comprada 
+    e o valor final da compra do industrializado.  
     Mais informações da impressão na especificação e nos exemplos de testes.
 
 @param void *dado: ponteiro do tipo genérico de um dado a constar na impressão da NF digital.
@@ -95,7 +97,7 @@ void alteraDisponibilidadeIndustrializado(void *dado, int qtd);
 
 /*
 Função que imprime os atributos de um Industrializado. As informações do Industrializado a serem impressas são:
-    descrição, código único, tipo do industrializado, tipo do produto, e preço do industrializado.
+    nome, código único, descrição, tipo do industrializado, tipo do produto, e preço do industrializado.
     Mais detalhes nos exemplos/especificação.
 
 @param void *dado: ponteiro do tipo genérico do Industrializado que deseja-se imprimir os atributos.
