@@ -1,5 +1,4 @@
-# 2024-1-template-TP1-etapa-1
-UFoodES
+# UFoodES
 # Template de implementação do Trabalho Prático 1 - Etapa 1
 
 Neste repositório você encontra o template de código para implementação do Trabalho Prático 1 - Etapa 1 da disciplina de Programação II.
