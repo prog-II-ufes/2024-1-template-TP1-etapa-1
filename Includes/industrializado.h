@@ -66,7 +66,7 @@ char* getDescIndustrializado(void *dado);
 Função que retorna o tipo de um produto industrializado.
 
 @param void *dado: ponteiro do tipo genérico do Industrializado que deseja-se recuperar o tipo.
-@return char: caractere com o tipo do produto industrializado.
+@return char: caractere referente ao tipo do produto cadastrado por uma loja.
 */
 char getTipoIndustrializado(void *dado);
 
